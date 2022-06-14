@@ -1,0 +1,9 @@
+.bg-span{
+    background-color: rgb(237, 85, 85);
+    border-radius: 20px;
+}
+.btn-color{
+    color: black;
+    background-color: lawngreen;
+    border-radius: 0 0 15px 15px;
+}

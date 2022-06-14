@@ -1,0 +1,61 @@
+.navber{
+    display: flex;
+    justify-content: left;
+    padding-left: 150px;
+}
+.fill-current{
+    padding: 20px;
+    font-size: 20px xx-large;
+    color: white;
+}
+.nav-route{
+    display: flex;
+    justify-content: right;
+    padding-left: 100px;
+}
+.text{
+    padding: 20px;
+    font-size: 15px;
+    color: white;
+}
+.nav-component{
+    display: flex;
+}
+.nav-container{
+    padding-left: 170px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.justify{
+    display: flex;
+    padding-top: 20px;
+    padding-right: 100px;
+}
+.padding{
+    padding-left: 10px;
+    padding-right: 30px;
+}
+.width{
+    width: 250px;
+    height: 35px;
+    border: 1px solid black;
+}
+.highet{
+    height: 35px;
+    width: 100px;
+    border: 1px solid black;
+    background-color: lawngreen;
+}
+.heart{
+    padding-left: 20px;
+    padding-right: 20px;
+    color: black;
+    font-size: 30px;
+}
+.cart{
+    padding-left: 20px;
+    padding-right: 20px;
+    color: red;
+    font-size: 30px;
+}
