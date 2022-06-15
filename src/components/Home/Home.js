@@ -1,7 +1,7 @@
 import React from "react";
-import Catagory from "../../Share/Catagory/Catagory";
 import Product from "../../Share/Product/Product";
 import "./Home.css";
+import Catagory from "../../Share/Catagory/Catagory";
 
 const Home = () => {
   return (
