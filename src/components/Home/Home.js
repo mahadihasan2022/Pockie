@@ -1,4 +1,6 @@
 import React from "react";
+import Catagory from "../../Share/Catagory/Catagory";
+import Product from "../../Share/Product/Product";
 import "./Home.css";
 
 const Home = () => {
@@ -181,6 +183,12 @@ const Home = () => {
           </div>
           </div>
         </div>
+      </section>
+      <section>
+        <Catagory></Catagory>
+      </section>
+      <section>
+        <Product></Product>
       </section>
     </div>
   );

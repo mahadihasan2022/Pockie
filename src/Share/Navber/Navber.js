@@ -115,7 +115,7 @@ const Navber = () => {
                   <li> <a class="btn btn-ghost normal-case text-md pl-4">Luxury Food<span><FontAwesomeIcon icon={faAngleRight}  className="pl-4"/></span></a></li>
                   <li> <a class="btn btn-ghost normal-case text-md pl-4">Jewellery<span><FontAwesomeIcon icon={faAngleRight}  className="pl-8"/></span></a></li>
                   <li> <a class="btn btn-ghost normal-case text-md pl-4">Shoes<span><FontAwesomeIcon icon={faAngleRight}  className="pl-12"/></span></a></li>
-                  <li> <a class="btn btn-ghost normal-case text-md pl-4">Vehicle<span><FontAwesomeIcon icon={faAngleRight}  className="pl-12"/></span></a></li>
+                  <li> <a class="btn btn-ghost normal-case text-md pl-4">Sunglass<span><FontAwesomeIcon icon={faAngleRight}  className="pl-12"/></span></a></li>
                   <button className="w-full h-12 btn-color font-bold">See All Category</button>
                 </ul>
               </div>
