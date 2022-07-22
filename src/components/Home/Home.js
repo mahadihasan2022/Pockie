@@ -1,7 +1,7 @@
 import React from "react";
+import Category from "../../Share/Category/Category";
 import Product from "../../Share/Product/Product";
 import "./Home.css";
-import Catagory from "../../Share/Catagory/Catagory";
 
 const Home = () => {
   return (
@@ -185,7 +185,7 @@ const Home = () => {
         </div>
       </section>
       <section>
-        <Catagory></Catagory>
+        <Category></Category>
       </section>
       <section>
         <Product></Product>

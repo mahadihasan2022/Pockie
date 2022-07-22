@@ -5,6 +5,7 @@ import { faTruck } from "@fortawesome/free-solid-svg-icons";
 import { faUser } from "@fortawesome/free-solid-svg-icons";
 import { faAngleRight } from "@fortawesome/free-solid-svg-icons";
 import './Navber.css';
+import { Link } from "react-router-dom";
 
 const Navber = () => {
   return (
@@ -33,7 +34,7 @@ const Navber = () => {
               class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
             >
               <div>
-              <li> <a class="btn btn-ghost normal-case text-md">Home</a></li>
+              <li> <Link to="/Home" class="btn btn-ghost normal-case text-md">Home</Link></li>
              <li><a class="btn btn-ghost normal-case text-md">New Products  <FontAwesomeIcon
                       icon={faAngleDown}
                       className="text-white pl-4"
@@ -66,7 +67,7 @@ const Navber = () => {
                   tabindex="0"
                   class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
                 >
-                  <li> <a class="btn btn-ghost normal-case text-md pl-4">Technology<span><FontAwesomeIcon icon={faAngleRight}  className="pl-8"/></span></a>
+                  <li> <Link to="/Technology"class="btn btn-ghost normal-case text-md pl-4">Technology<span><FontAwesomeIcon icon={faAngleRight}  className="pl-8"/></span></Link>
                   <ul>
                       <li><a>Laptop</a>
                       <ul>
@@ -121,11 +122,11 @@ const Navber = () => {
               </div>
             </div>
             <ul class="navbar-center pl-40">
-             <li> <a class="btn btn-ghost normal-case text-md">Home</a></li>
-             <li><a class="btn btn-ghost normal-case text-md">New Products  <FontAwesomeIcon
+             <li> <Link to="/home" className="btn btn-ghost normal-case text-md">Home</Link></li>
+             <li><Link to="newProduct" className="btn btn-ghost normal-case text-md">New Products  <FontAwesomeIcon
                       icon={faAngleDown}
                       className="text-white pl-4"
-                    /></a></li>
+                    /></Link></li>
                <li><a class="btn btn-ghost normal-case text-md">Promotion <span className="bg-span p-4">Hot</span></a></li>
                <li> <a class="btn btn-ghost normal-case text-md pl-24"><FontAwesomeIcon icon={faTruck} className="pr-4"/><span className="">Shipping</span></a></li>
              <li> <a class="btn btn-ghost normal-case text-md pl-16"><FontAwesomeIcon icon={faUser} className="pr-4"/><span className="">Sing Up</span></a></li>

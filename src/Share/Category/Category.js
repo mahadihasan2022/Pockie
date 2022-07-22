@@ -1,7 +1,7 @@
 import React from 'react';
-import './Catagory.css';
+import './Category.css';
 
-const Catagory = () => {
+const Category = () => {
 
     
     return (
@@ -55,4 +55,4 @@ const Catagory = () => {
     );
 };
 
-export default Catagory;
+export default Category;

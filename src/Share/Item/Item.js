@@ -13,10 +13,10 @@ const Item = (props) => {
           <img src={img} alt="Shoes" className='h-32 w-50' />
         </figure>
         <div class="card-body items-center text-center">
-          <h2 class="card-title">Name:{name}</h2>
-          <p>Brand:{brand}</p>
-          <p>Price:{price}</p>
-          <p>Stock:{stock}</p>
+          <h2 class="card-title">Name: {name}</h2>
+          <p>Brand: {brand}</p>
+          <p>Price: {price}</p>
+          <p>Stock: {stock}</p>
           <div class="card-actions">
             <button class="btn btn-primary">Order Now</button>
           </div>
