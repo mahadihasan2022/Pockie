@@ -68,50 +68,11 @@ const Navber = () => {
                   class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
                 >
                   <li> <Link to="/Technology"class="btn btn-ghost normal-case text-md pl-4">Technology<span><FontAwesomeIcon icon={faAngleRight}  className="pl-8"/></span></Link>
-                  <ul>
-                      <li><a>Laptop</a>
-                      <ul>
-                          <li><a>Asus</a></li>
-                          <li><a>HP</a></li>
-                          <li><a>Mac Book</a></li>
-                          <li><a>Lenovo</a></li>
-                      </ul>
-                      </li>
-                      <li><a>Desktop</a>
-                      <ul>
-                          <li><a>Samsung</a></li>
-                          <li><a>L.G.</a></li>
-                          <li><a>Dell</a></li>
-                          <li><a>Sony</a></li>
-                      </ul>
-                      </li>
-                      <li><a>Phone</a>
-                      <ul>
-                          <li><a>Samsung</a></li>
-                          <li><a>iPhone</a></li>
-                          <li><a>Vivo</a></li>
-                          <li><a>Walton</a></li>
-                          <li><a>Samphony</a></li>
-                          <li><a>Relmi</a></li>
-                      </ul>
-                      </li>
-                      <li><a>Cemera</a></li>
-                      <li><a>USB</a></li>
-                      <li><a>Charger</a></li>
-                      <li><a>Keyboard</a></li>
-                      <li><a>Hard Drive</a></li>
-                      <li><a>Mouse</a></li>
-                  </ul>
                   </li>
                   <li> <a class="btn btn-ghost normal-case text-md pl-4">Watch<span><FontAwesomeIcon icon={faAngleRight}  className="pl-16"/></span></a></li>
                   <li> <a class="btn btn-ghost normal-case text-md pl-4">Home & Life<span><FontAwesomeIcon icon={faAngleRight}  className="pl-5"/></span></a></li>
                   <li> <a class="btn btn-ghost normal-case text-md pl-4">Cosmetics<span><FontAwesomeIcon icon={faAngleRight}  className="pl-8"/></span></a></li>
                   <li> <a class="btn btn-ghost normal-case text-md pl-4">Fashion<span><FontAwesomeIcon icon={faAngleRight}  className="pl-12"/></span></a>
-                  <ul>
-                      <li><a>Men Collections</a></li>
-                      <li><a>Women Collections</a></li>
-                      <li><a>Kid Collections</a></li>
-                  </ul>
                   </li>
                   <li> <a class="btn btn-ghost normal-case text-md pl-4">Luxury Food<span><FontAwesomeIcon icon={faAngleRight}  className="pl-4"/></span></a></li>
                   <li> <a class="btn btn-ghost normal-case text-md pl-4">Jewellery<span><FontAwesomeIcon icon={faAngleRight}  className="pl-8"/></span></a></li>

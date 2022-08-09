@@ -4,11 +4,11 @@ const Item = (props) => {
 
   
   const { product } = props;
-  const { _id, name, img, price, stock, brand } = product;
+  const { name, img, price, stock, brand } = product;
 
 
     return (
-        <div class="card w-68 bg-base-100 shadow-xl">
+         <div class="card w-68 bg-base-100 shadow-xl">
         <figure class="px-10 pt-10">
           <img src={img} alt="Shoes" className='h-32 w-50' />
         </figure>
