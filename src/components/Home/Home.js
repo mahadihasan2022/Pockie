@@ -1,6 +1,6 @@
 import React from "react";
 import Category from "../../Share/Category/Category";
-import Product from "../../Share/Product/Product";
+import Pagination from "../../Share/Pagination/Pagination";
 import "./Home.css";
 
 const Home = () => {
@@ -188,7 +188,7 @@ const Home = () => {
         <Category></Category>
       </section>
       <section>
-        <Product></Product>
+      <Pagination></Pagination>
       </section>
     </div>
   );

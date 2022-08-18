@@ -65,19 +65,17 @@ const Navber = () => {
                 </label>
                 <ul
                   tabindex="0"
-                  class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
-                >
+                  class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
                   <li> <Link to="/Technology"class="btn btn-ghost normal-case text-md pl-4">Technology<span><FontAwesomeIcon icon={faAngleRight}  className="pl-8"/></span></Link>
                   </li>
-                  <li> <a class="btn btn-ghost normal-case text-md pl-4">Watch<span><FontAwesomeIcon icon={faAngleRight}  className="pl-16"/></span></a></li>
-                  <li> <a class="btn btn-ghost normal-case text-md pl-4">Home & Life<span><FontAwesomeIcon icon={faAngleRight}  className="pl-5"/></span></a></li>
-                  <li> <a class="btn btn-ghost normal-case text-md pl-4">Cosmetics<span><FontAwesomeIcon icon={faAngleRight}  className="pl-8"/></span></a></li>
-                  <li> <a class="btn btn-ghost normal-case text-md pl-4">Fashion<span><FontAwesomeIcon icon={faAngleRight}  className="pl-12"/></span></a>
-                  </li>
-                  <li> <a class="btn btn-ghost normal-case text-md pl-4">Luxury Food<span><FontAwesomeIcon icon={faAngleRight}  className="pl-4"/></span></a></li>
-                  <li> <a class="btn btn-ghost normal-case text-md pl-4">Jewellery<span><FontAwesomeIcon icon={faAngleRight}  className="pl-8"/></span></a></li>
-                  <li> <a class="btn btn-ghost normal-case text-md pl-4">Shoes<span><FontAwesomeIcon icon={faAngleRight}  className="pl-12"/></span></a></li>
-                  <li> <a class="btn btn-ghost normal-case text-md pl-4">Sunglass<span><FontAwesomeIcon icon={faAngleRight}  className="pl-12"/></span></a></li>
+                  <li> <Link to="watch" class="btn btn-ghost normal-case text-md pl-4">Watch<span><FontAwesomeIcon icon={faAngleRight}  className="pl-16"/></span></Link></li>
+                  <li> <Link to='HomeLife' class="btn btn-ghost normal-case text-md pl-4">Home & Life<span><FontAwesomeIcon icon={faAngleRight}  className="pl-5"/></span></Link></li>
+                  <li> <Link to='cosmetic' class="btn btn-ghost normal-case text-md pl-4">Cosmetics<span><FontAwesomeIcon icon={faAngleRight}  className="pl-8"/></span></Link></li>
+                  <li> <Link to= 'fashion' class="btn btn-ghost normal-case text-md pl-4">Fashion<span><FontAwesomeIcon icon={faAngleRight}  className="pl-12"/></span></Link> </li>
+                  <li> <Link to='LuxuryFood' class="btn btn-ghost normal-case text-md pl-4">Luxury Food<span><FontAwesomeIcon icon={faAngleRight}  className="pl-4"/></span></Link></li>
+                  <li> <Link to='jewellery' class="btn btn-ghost normal-case text-md pl-4">Jewellery<span><FontAwesomeIcon icon={faAngleRight}  className="pl-8"/></span></Link></li>
+                  <li> <Link to='/shoes' class="btn btn-ghost normal-case text-md pl-4">Shoes<span><FontAwesomeIcon icon={faAngleRight}  className="pl-12"/></span></Link></li>
+                  <li> <Link to ="/SunGlass"  class="btn btn-ghost normal-case text-md pl-4">Sunglass<span><FontAwesomeIcon icon={faAngleRight}  className="pl-12"/></span></Link></li>
                   <button className="w-full h-12 btn-color font-bold">See All Category</button>
                 </ul>
               </div>

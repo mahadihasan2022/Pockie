@@ -1,4 +1,3 @@
-import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 import Header from './components/Header/Header';
 import Home from './components/Home/Home';
@@ -26,8 +25,21 @@ import Charger from './Page/Charger/Charger';
 import KeyBoard from './Page/KeyBoard/KeyBoard';
 import HardDrive from './Page/HardDrive/HardDrive';
 import Mouse from './Page/Mouse/Mouse';
+import Sunglass from './Page/Sunglass/Sunglass';
+import AllSun from './Page/AllSun/AllSun';
+import Shoes from './Page/Shoes/Shoes';
+import Jewellery from './Page/Jewellery/Jewellery';
+import LuxuryFood from './Page/LuxuryFood/LuxuryFood';
+import HomeLife from './Page/HomeLife/HomeLife';
+import Watch from './Page/Watch/Watch';
+import Cosmetic from './Page/Cosmetic/Cosmetic';
+import Fashion from './Page/Fashion/Fashion';
+import MenCollection from './Page/MenCollection/MenCollection';
+import Women from './Page/Women/Women';
+import Kids from './Page/Kids/Kids';
 
 const App = () => {
+
   return (
     <div>
       <Header></Header>
@@ -59,6 +71,19 @@ const App = () => {
         <Route path="/KeyBoard" element={<KeyBoard></KeyBoard>}></Route>
         <Route path="/HardDrive" element={<HardDrive></HardDrive>}></Route>
         <Route path="/Mouse" element={<Mouse></Mouse>}></Route>
+        <Route path="/SunGlass" element={<Sunglass></Sunglass>}></Route>
+        <Route path="/SunGla" element={<AllSun></AllSun>}></Route>
+        <Route path="/shoes" element={<Shoes></Shoes>}></Route>
+        <Route path="/jewellery" element={<Jewellery></Jewellery>}></Route>
+        <Route path="/LuxuryFood" element={<LuxuryFood></LuxuryFood>}></Route>
+        <Route path="/HomeLife" element={<HomeLife></HomeLife>}></Route>
+        <Route path="/watch" element={<Watch></Watch>}></Route>
+        <Route path="/cosmetic" element={<Cosmetic></Cosmetic>}></Route>
+        <Route path="/fashion" element={<Fashion></Fashion>}></Route>
+        <Route path="/AllFashion" element={<Fashion></Fashion>}></Route>
+        <Route path="/man" element={<MenCollection></MenCollection>}></Route>
+        <Route path="/woman" element={<Women></Women>}></Route>
+        <Route path="/child" element={<Kids></Kids>}></Route>
       </Routes>
     </div>
   );
