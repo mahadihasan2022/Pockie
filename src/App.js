@@ -37,6 +37,8 @@ import Fashion from './Page/Fashion/Fashion';
 import MenCollection from './Page/MenCollection/MenCollection';
 import Women from './Page/Women/Women';
 import Kids from './Page/Kids/Kids';
+import SignUp from './Others/SignUp/SignUp';
+import Login from './Others/Login/Login';
 
 const App = () => {
 
@@ -84,6 +86,8 @@ const App = () => {
         <Route path="/man" element={<MenCollection></MenCollection>}></Route>
         <Route path="/woman" element={<Women></Women>}></Route>
         <Route path="/child" element={<Kids></Kids>}></Route>
+        <Route path="/signup" element={<SignUp></SignUp>}></Route>
+        <Route path="/login" element={<Login></Login>}></Route>
       </Routes>
     </div>
   );

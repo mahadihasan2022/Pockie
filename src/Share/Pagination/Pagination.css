@@ -16,8 +16,20 @@
     font-weight: 600;
     background-color:  aqua;
 }
+.pagination .page-number{
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-weight: 600;
+    background-color:  lightsalmon;
+}
 .pagination .page-num:hover{
-    background-color: lightsalmon;
+    background-color: rgb(33, 15, 3);
+    color: white;
+
+}
+.pagination .page-number:hover{
+    background-color: rgb(6, 246, 166);
     color: #050505;
 }
 .pagination .action{

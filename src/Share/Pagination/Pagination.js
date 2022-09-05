@@ -31,12 +31,17 @@ const Pagination = () => {
 
   return (
     <>
-        <h1 className="text-center text-5xl font-bold pt-8">Our Products</h1>
-
-    <div className="grid grid-cols-3 pt-12">
-    {currentItems.map((product) => (
-             <Item key={product._id} product={product}></Item>
-           ))}
+        <div className="cont-cont">
+      <div className="p-8">
+        <h1 className="text-4xl text-white font-bold p-8 text-center">Our Products</h1>
+        <div className="grid">
+          <div className="grid md:grid-cols-4 sm:grid-cols-1 gap-4">
+            {currentItems.map((product) => (
+              <Item key={product._id} product={product}></Item>
+            ))}
+          </div>
+        </div>
+      </div>
     </div>
       <ReactPaginate
         breakLabel="..."
@@ -47,7 +52,7 @@ const Pagination = () => {
         previousLabel="< previous"
         renderOnZeroPageCount={null}
         containerClassName='pagination'
-        pageClassName="page-num"
+        pageClassName="page-number"
         previousLinkClassName="page-num"
         nextLinkClassName="page-num"
         activeLinkClassName="active"

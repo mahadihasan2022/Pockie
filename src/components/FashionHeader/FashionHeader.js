@@ -1,12 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faChildDress} from "@fortawesome/free-solid-svg-icons";
 const FashionHeader = () => {
   return (
     <div>
       <div class="navbar bg-green-900">
         <div class="flex-1">
-          <p className=" btn btn-ghost normal-case text-2xl text-black font-bold">
+          <p className=" btn btn-ghost normal-case text-2xl text-black font-bold"><FontAwesomeIcon icon={faChildDress}  className="pl-8 pr-4 text-5xl"/>
             Fashion
           </p>
         </div>
